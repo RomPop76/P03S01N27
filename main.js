@@ -12,9 +12,9 @@
 } */
 // for - słowo kluczowe
 
-for (let i = 0; i <= 2; i++) {
- console.log("wyświetlenie " + i);
-}
+// for (let i = 0; i <= 10; i++) {
+//  console.log("wyświetlenie " + i);
+// }
 
 // Działanie
 // 1 - inicjalizacja następuje raz (konwencja mówi, że nazywamy iterator zmienną i. Powinien to być let, a nie var czy bez deklaracji). Najczęściej deklarujemy iterator jako 0.
@@ -63,13 +63,13 @@ while (false) {
 // alert(`za ${money} złote, już piwka nie kupię :((((`)
 
 // Przykład 3
-// let gasoline = 40;
-// let km = 0;
+let gasoline = 40;
+let km = 0;
 
-// while (gasoline--) {
-//  km += 18;
-//  console.log("Przejechaliśmy " + km + " kilometrów. Została nam jeszcze " + gasoline + " litrów benzyny");
-// }
+while (gasoline--) {
+ km += 18;
+ console.log("Przejechaliśmy " + km + " kilometrów. Została nam jeszcze " + gasoline + " litrów benzyny");
+}
 
 
 //DO...WHILE
